@@ -6,7 +6,7 @@
  * Author       : Ebrahim Shafiei (EbraSha)
  * Email        : Prof.Shafiei@Gmail.com
  * Created On   : 2024-07-06
- * Description  :  A powerful and fast software for reverse engineering web requests and analyzing their content 
+ * Description  :  A powerful and fast software for reverse engineering web requests and analyzing their content
  * -------------------------------------------------------------------
  *
  * "Coding is an engaging and beloved hobby for me. I passionately and insatiably pursue knowledge in cybersecurity and programming."
@@ -39,6 +39,8 @@ async fn handle_request(req: Request<Body>) -> Result<Response<Body>, Infallible
     let colored_request_str = colored_request_str.replace("\"host\":", &format!("{}\"host\":{}{}", CYAN, RESET, ""));
 
     println!("{}", colored_request_str);
+    println!("");
+    println!("");
 
     let mut response = Response::new(Body::from("Request received\nProgrammer: Ebrahim Shafiei (EbraSha)"));
     response.headers_mut().insert("Server", HeaderValue::from_static("Abdal Fake Web Server 1.3"));
