@@ -7,6 +7,7 @@
 ## 👀 Screenshot
 
 <p align="center"><img src="resources/img/en.png?raw=true"></p>
+<p align="center"><img src="resources/img/exc.png?raw=true"></p>
 
 
  ## 💎 General purpose

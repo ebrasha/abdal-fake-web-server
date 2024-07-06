@@ -7,6 +7,7 @@
 ## 👀 پیش نمایس
 
 <p align="center"><img src="resources/img/fa.png?raw=true"></p>
+<p align="center"><img src="resources/img/exc.png?raw=true"></p>
 
 
 
